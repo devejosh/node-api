@@ -14,7 +14,3 @@ app.get ('/' , (req, resp) => {
 const server = app.listen(PORT , () => {
     console.log (`Express is listening on port : ${PORT}`)
 })
-
-server.close(() => {
-    console.log ("Server instance has ended")
-})
